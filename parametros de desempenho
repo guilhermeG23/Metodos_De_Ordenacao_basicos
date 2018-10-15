@@ -1,0 +1,460 @@
+parametros de desempenho
+
+hardware: i3 - 7020 - clock 2.0 ghz - 3mb l3 cache
+		  4 gb ram ddr4 2133mhz
+		  1tb hd 5400rpm 32mb de cache
+		  mint 19.3
+		  netbeans 8.2
+		  jdk8
+
+10 testes para confirma precisao de cada
+
+Perda do tempo para renderizar o inicio e o fim da operação
+
+ + tempo do timer 
+
+10 valores
+
+	selection
+
+	selection = crescente = 10 valores = 0003 milisegundos para executar a operação
+	selection = crescente = 10 valores = 0001 milisegundos para executar a operação
+	selection = crescente = 10 valores = 0001 milisegundos para executar a operação
+	selection = crescente = 10 valores = 0001 milisegundos para executar a operação
+	selection = crescente = 10 valores = 0001 milisegundos para executar a operação
+	selection = crescente = 10 valores = 0001 milisegundos para executar a operação
+	selection = crescente = 10 valores = 0001 milisegundos para executar a operação
+	selection = crescente = 10 valores = 0001 milisegundos para executar a operação
+	selection = crescente = 10 valores = 0001 milisegundos para executar a operação
+	selection = crescente = 10 valores = 0001 milisegundos para executar a operação
+
+	selection = decrecente = 10 valores = 0003 milisegundos para executar a operação
+	selection = decrecente = 10 valores = 0001 milisegundos para executar a operação
+	selection = decrecente = 10 valores = 0000 milisegundos para executar a operação
+	selection = decrecente = 10 valores = 0000 milisegundos para executar a operação
+	selection = decrecente = 10 valores = 0001 milisegundos para executar a operação
+	selection = decrecente = 10 valores = 0003 milisegundos para executar a operação
+	selection = decrecente = 10 valores = 0002 milisegundos para executar a operação
+	selection = decrecente = 10 valores = 0001 milisegundos para executar a operação
+	selection = decrecente = 10 valores = 0000 milisegundos para executar a operação
+	selection = decrecente = 10 valores = 0001 milisegundos para executar a operação
+
+	selection = random = 10 valores = 0001 milisegundos para executar a operação
+	selection = random = 10 valores = 0001 milisegundos para executar a operação
+	selection = random = 10 valores = 0001 milisegundos para executar a operação
+	selection = random = 10 valores = 0001 milisegundos para executar a operação
+	selection = random = 10 valores = 0000 milisegundos para executar a operação
+	selection = random = 10 valores = 0001 milisegundos para executar a operação
+	selection = random = 10 valores = 0001 milisegundos para executar a operação
+	selection = random = 10 valores = 0001 milisegundos para executar a operação
+	selection = random = 10 valores = 0001 milisegundos para executar a operação
+	selection = random = 10 valores = 0001 milisegundos para executar a operação
+
+	bolha
+
+	bubble = crescente = 10 valores = 0001 milisegundos para executar a operação
+	bubble = crescente = 10 valores = 0001 milisegundos para executar a operação
+	bubble = crescente = 10 valores = 0001 milisegundos para executar a operação
+	bubble = crescente = 10 valores = 0001 milisegundos para executar a operação
+	bubble = crescente = 10 valores = 0001 milisegundos para executar a operação
+	bubble = crescente = 10 valores = 0000 milisegundos para executar a operação
+	bubble = crescente = 10 valores = 0002 milisegundos para executar a operação
+	bubble = crescente = 10 valores = 0001 milisegundos para executar a operação
+	bubble = crescente = 10 valores = 0001 milisegundos para executar a operação
+	bubble = crescente = 10 valores = 0001 milisegundos para executar a operação
+
+	bubble = decrescente = 10 valores = 0005 milisegundos para executar a operação
+	bubble = decrescente = 10 valores = 0001 milisegundos para executar a operação
+	bubble = decrescente = 10 valores = 0001 milisegundos para executar a operação
+	bubble = decrescente = 10 valores = 0001 milisegundos para executar a operação
+	bubble = decrescente = 10 valores = 0001 milisegundos para executar a operação
+	bubble = decrescente = 10 valores = 0000 milisegundos para executar a operação
+	bubble = decrescente = 10 valores = 0001 milisegundos para executar a operação
+	bubble = decrescente = 10 valores = 0002 milisegundos para executar a operação
+	bubble = decrescente = 10 valores = 0000 milisegundos para executar a operação
+	bubble = decrescente = 10 valores = 0001 milisegundos para executar a operação
+
+	bubble = random = 10 valores = 0001 milisegundos para executar a operação
+	bubble = random = 10 valores = 0001 milisegundos para executar a operação
+	bubble = random = 10 valores = 0001 milisegundos para executar a operação
+	bubble = random = 10 valores = 0000 milisegundos para executar a operação
+	bubble = random = 10 valores = 0001 milisegundos para executar a operação
+	bubble = random = 10 valores = 0000 milisegundos para executar a operação
+	bubble = random = 10 valores = 0000 milisegundos para executar a operação
+	bubble = random = 10 valores = 0001 milisegundos para executar a operação
+	bubble = random = 10 valores = 0001 milisegundos para executar a operação
+	bubble = random = 10 valores = 0000 milisegundos para executar a operação
+
+	Insert
+
+	insert = crescente = 10 valores = 0008 milisegundos para executar a operação
+	insert = crescente = 10 valores = 0001 milisegundos para executar a operação
+	insert = crescente = 10 valores = 0001 milisegundos para executar a operação
+	insert = crescente = 10 valores = 0001 milisegundos para executar a operação
+	insert = crescente = 10 valores = 0001 milisegundos para executar a operação
+	insert = crescente = 10 valores = 0001 milisegundos para executar a operação
+	insert = crescente = 10 valores = 0001 milisegundos para executar a operação
+	insert = crescente = 10 valores = 0001 milisegundos para executar a operação
+	insert = crescente = 10 valores = 0001 milisegundos para executar a operação
+	insert = crescente = 10 valores = 0000 milisegundos para executar a operação
+
+	insert = decrescente = 10 valores = 0000 milisegundos para executar a operação
+	insert = decrescente = 10 valores = 0000 milisegundos para executar a operação
+	insert = decrescente = 10 valores = 0001 milisegundos para executar a operação
+	insert = decrescente = 10 valores = 0001 milisegundos para executar a operação
+	insert = decrescente = 10 valores = 0001 milisegundos para executar a operação
+	insert = decrescente = 10 valores = 0001 milisegundos para executar a operação
+	insert = decrescente = 10 valores = 0001 milisegundos para executar a operação
+	insert = decrescente = 10 valores = 0001 milisegundos para executar a operação
+	insert = decrescente = 10 valores = 0001 milisegundos para executar a operação
+	insert = decrescente = 10 valores = 0001 milisegundos para executar a operação
+
+	insert = random = 10 valores = 0000 milisegundos para executar a operação
+	insert = random = 10 valores = 0005 milisegundos para executar a operação
+	insert = random = 10 valores = 0001 milisegundos para executar a operação
+	insert = random = 10 valores = 0001 milisegundos para executar a operação
+	insert = random = 10 valores = 0001 milisegundos para executar a operação
+	insert = random = 10 valores = 0001 milisegundos para executar a operação
+	insert = random = 10 valores = 0001 milisegundos para executar a operação
+	insert = random = 10 valores = 0001 milisegundos para executar a operação
+	insert = random = 10 valores = 0001 milisegundos para executar a operação
+	insert = random = 10 valores = 0001 milisegundos para executar a operação
+
+100 valores
+
+	selection
+
+	selection = crescente = 100 valores = 0004 milisegundos para executar a operação
+	selection = crescente = 100 valores = 0003 milisegundos para executar a operação
+	selection = crescente = 100 valores = 0004 milisegundos para executar a operação
+	selection = crescente = 100 valores = 0004 milisegundos para executar a operação
+	selection = crescente = 100 valores = 0004 milisegundos para executar a operação
+	selection = crescente = 100 valores = 0003 milisegundos para executar a operação
+	selection = crescente = 100 valores = 0004 milisegundos para executar a operação
+	selection = crescente = 100 valores = 0004 milisegundos para executar a operação
+	selection = crescente = 100 valores = 0004 milisegundos para executar a operação
+	selection = crescente = 100 valores = 0004 milisegundos para executar a operação
+
+	selection = decrecente = 100 valores = 0005 milisegundos para executar a operação
+	selection = decrecente = 100 valores = 0004 milisegundos para executar a operação
+	selection = decrecente = 100 valores = 0005 milisegundos para executar a operação
+	selection = decrecente = 100 valores = 0003 milisegundos para executar a operação
+	selection = decrecente = 100 valores = 0003 milisegundos para executar a operação
+	selection = decrecente = 100 valores = 0005 milisegundos para executar a operação
+	selection = decrecente = 100 valores = 0004 milisegundos para executar a operação
+	selection = decrecente = 100 valores = 0004 milisegundos para executar a operação
+	selection = decrecente = 100 valores = 0004 milisegundos para executar a operação
+	selection = decrecente = 100 valores = 0005 milisegundos para executar a operação
+
+	selection = random = 100 valores = 0004 milisegundos para executar a operação
+	selection = random = 100 valores = 0004 milisegundos para executar a operação
+	selection = random = 100 valores = 0005 milisegundos para executar a operação
+	selection = random = 100 valores = 0004 milisegundos para executar a operação
+	selection = random = 100 valores = 0004 milisegundos para executar a operação
+	selection = random = 100 valores = 0004 milisegundos para executar a operação
+	selection = random = 100 valores = 0005 milisegundos para executar a operação
+	selection = random = 100 valores = 0004 milisegundos para executar a operação
+	selection = random = 100 valores = 0005 milisegundos para executar a operação
+	selection = random = 100 valores = 0004 milisegundos para executar a operação
+
+	bolha
+
+	bubble = crescente = 10 valores = 0001 milisegundos para executar a operação
+	bubble = crescente = 10 valores = 0001 milisegundos para executar a operação
+	bubble = crescente = 10 valores = 0001 milisegundos para executar a operação
+	bubble = crescente = 10 valores = 0001 milisegundos para executar a operação
+	bubble = crescente = 10 valores = 0001 milisegundos para executar a operação
+	bubble = crescente = 10 valores = 0000 milisegundos para executar a operação
+	bubble = crescente = 10 valores = 0002 milisegundos para executar a operação
+	bubble = crescente = 10 valores = 0001 milisegundos para executar a operação
+	bubble = crescente = 10 valores = 0001 milisegundos para executar a operação
+	bubble = crescente = 10 valores = 0001 milisegundos para executar a operação
+
+	bubble = decrescente = 10 valores = 0005 milisegundos para executar a operação
+	bubble = decrescente = 10 valores = 0001 milisegundos para executar a operação
+	bubble = decrescente = 10 valores = 0001 milisegundos para executar a operação
+	bubble = decrescente = 10 valores = 0001 milisegundos para executar a operação
+	bubble = decrescente = 10 valores = 0001 milisegundos para executar a operação
+	bubble = decrescente = 10 valores = 0000 milisegundos para executar a operação
+	bubble = decrescente = 10 valores = 0001 milisegundos para executar a operação
+	bubble = decrescente = 10 valores = 0002 milisegundos para executar a operação
+	bubble = decrescente = 10 valores = 0000 milisegundos para executar a operação
+	bubble = decrescente = 10 valores = 0001 milisegundos para executar a operação
+
+	bubble = random = 10 valores = 0001 milisegundos para executar a operação
+	bubble = random = 10 valores = 0001 milisegundos para executar a operação
+	bubble = random = 10 valores = 0001 milisegundos para executar a operação
+	bubble = random = 10 valores = 0000 milisegundos para executar a operação
+	bubble = random = 10 valores = 0001 milisegundos para executar a operação
+	bubble = random = 10 valores = 0000 milisegundos para executar a operação
+	bubble = random = 10 valores = 0000 milisegundos para executar a operação
+	bubble = random = 10 valores = 0001 milisegundos para executar a operação
+	bubble = random = 10 valores = 0001 milisegundos para executar a operação
+	bubble = random = 10 valores = 0000 milisegundos para executar a operação
+
+	Insert
+
+	insert = crescente = 100 valores = 0005 milisegundos para executar a operação
+	insert = crescente = 100 valores = 0005 milisegundos para executar a operação
+	insert = crescente = 100 valores = 0005 milisegundos para executar a operação
+	insert = crescente = 100 valores = 0006 milisegundos para executar a operação
+	insert = crescente = 100 valores = 0008 milisegundos para executar a operação
+	insert = crescente = 100 valores = 0004 milisegundos para executar a operação
+	insert = crescente = 100 valores = 0005 milisegundos para executar a operação
+	insert = crescente = 100 valores = 0004 milisegundos para executar a operação
+	insert = crescente = 100 valores = 0004 milisegundos para executar a operação
+	insert = crescente = 100 valores = 0005 milisegundos para executar a operação
+
+	insert = decrescente = 100 valores = 0008 milisegundos para executar a operação
+	insert = decrescente = 100 valores = 0003 milisegundos para executar a operação
+	insert = decrescente = 100 valores = 0005 milisegundos para executar a operação
+	insert = decrescente = 100 valores = 0005 milisegundos para executar a operação
+	insert = decrescente = 100 valores = 0006 milisegundos para executar a operação
+	insert = decrescente = 100 valores = 0005 milisegundos para executar a operação
+	insert = decrescente = 100 valores = 0004 milisegundos para executar a operação
+	insert = decrescente = 100 valores = 0004 milisegundos para executar a operação
+	insert = decrescente = 100 valores = 0003 milisegundos para executar a operação
+	insert = decrescente = 100 valores = 0004 milisegundos para executar a operação
+
+	insert = random = 100 valores = 0005 milisegundos para executar a operação
+	insert = random = 100 valores = 0006 milisegundos para executar a operação
+	insert = random = 100 valores = 0004 milisegundos para executar a operação
+	insert = random = 100 valores = 0005 milisegundos para executar a operação
+	insert = random = 100 valores = 0005 milisegundos para executar a operação
+	insert = random = 100 valores = 0005 milisegundos para executar a operação
+	insert = random = 100 valores = 0011 milisegundos para executar a operação
+	insert = random = 100 valores = 0006 milisegundos para executar a operação
+	insert = random = 100 valores = 0005 milisegundos para executar a operação
+	insert = random = 100 valores = 0005 milisegundos para executar a operação
+
+1000 valores
+
+	selection 
+
+	selection = crescente = 1000 valores = 0026 milisegundos para executar a operação
+	selection = crescente = 1000 valores = 0031 milisegundos para executar a operação
+	selection = crescente = 1000 valores = 0031 milisegundos para executar a operação
+	selection = crescente = 1000 valores = 0026 milisegundos para executar a operação
+	selection = crescente = 1000 valores = 0029 milisegundos para executar a operação
+	selection = crescente = 1000 valores = 0029 milisegundos para executar a operação
+	selection = crescente = 1000 valores = 0030 milisegundos para executar a operação
+	selection = crescente = 1000 valores = 0033 milisegundos para executar a operação
+	selection = crescente = 1000 valores = 0027 milisegundos para executar a operação
+	selection = crescente = 1000 valores = 0029 milisegundos para executar a operação
+
+	selection = decrecente = 1000 valores = 0044 milisegundos para executar a operação
+	selection = decrecente = 1000 valores = 0027 milisegundos para executar a operação
+	selection = decrecente = 1000 valores = 0030 milisegundos para executar a operação
+	selection = decrecente = 1000 valores = 0029 milisegundos para executar a operação
+	selection = decrecente = 1000 valores = 0034 milisegundos para executar a operação
+	selection = decrecente = 1000 valores = 0037 milisegundos para executar a operação
+	selection = decrecente = 1000 valores = 0036 milisegundos para executar a operação
+	selection = decrecente = 1000 valores = 0032 milisegundos para executar a operação
+	selection = decrecente = 1000 valores = 0028 milisegundos para executar a operação
+	selection = decrecente = 1000 valores = 0033 milisegundos para executar a operação
+
+	selection = random = 1000 valores = 0030 milisegundos para executar a operação
+	selection = random = 1000 valores = 0033 milisegundos para executar a operação
+	selection = random = 1000 valores = 0031 milisegundos para executar a operação
+	selection = random = 1000 valores = 0034 milisegundos para executar a operação
+	selection = random = 1000 valores = 0025 milisegundos para executar a operação
+	selection = random = 1000 valores = 0031 milisegundos para executar a operação
+	selection = random = 1000 valores = 0029 milisegundos para executar a operação
+	selection = random = 1000 valores = 0030 milisegundos para executar a operação
+	selection = random = 1000 valores = 0035 milisegundos para executar a operação
+	selection = random = 1000 valores = 0033 milisegundos para executar a operação
+
+	Insert
+
+	insert = crescente = 1000 valores = 0022 milisegundos para executar a operação
+	insert = crescente = 1000 valores = 0020 milisegundos para executar a operação
+	insert = crescente = 1000 valores = 0019 milisegundos para executar a operação
+	insert = crescente = 1000 valores = 0021 milisegundos para executar a operação
+	insert = crescente = 1000 valores = 0026 milisegundos para executar a operação
+	insert = crescente = 1000 valores = 0021 milisegundos para executar a operação
+	insert = crescente = 1000 valores = 0019 milisegundos para executar a operação
+	insert = crescente = 1000 valores = 0021 milisegundos para executar a operação
+	insert = crescente = 1000 valores = 0021 milisegundos para executar a operação
+	insert = crescente = 1000 valores = 0019 milisegundos para executar a operação
+
+	insert = decrescente = 1000 valores = 0037 milisegundos para executar a operação
+	insert = decrescente = 1000 valores = 0042 milisegundos para executar a operação
+	insert = decrescente = 1000 valores = 0042 milisegundos para executar a operação
+	insert = decrescente = 1000 valores = 0043 milisegundos para executar a operação
+	insert = decrescente = 1000 valores = 0044 milisegundos para executar a operação
+	insert = decrescente = 1000 valores = 0041 milisegundos para executar a operação
+	insert = decrescente = 1000 valores = 0045 milisegundos para executar a operação
+	insert = decrescente = 1000 valores = 0038 milisegundos para executar a operação
+	insert = decrescente = 1000 valores = 0041 milisegundos para executar a operação
+	insert = decrescente = 1000 valores = 0048 milisegundos para executar a operação
+
+	insert = random = 1000 valores = 0038 milisegundos para executar a operação
+	insert = random = 1000 valores = 0041 milisegundos para executar a operação
+	insert = random = 1000 valores = 0046 milisegundos para executar a operação
+	insert = random = 1000 valores = 0046 milisegundos para executar a operação
+	insert = random = 1000 valores = 0049 milisegundos para executar a operação
+	insert = random = 1000 valores = 0044 milisegundos para executar a operação
+	insert = random = 1000 valores = 0038 milisegundos para executar a operação
+	insert = random = 1000 valores = 0044 milisegundos para executar a operação
+	insert = random = 1000 valores = 0043 milisegundos para executar a operação
+	insert = random = 1000 valores = 0044 milisegundos para executar a operação
+
+	bolha 
+
+	crescente
+
+	0,22
+	0,23
+	0,19
+	0,26
+	0,22
+	0,22
+	0,21
+	0,20
+	0,23
+	0,30
+
+	decrescente
+
+	0,21
+	0,37
+	0,20
+	0,23
+	0,22
+	0,20
+	0,24
+	0,27
+	0,21
+	0,21
+
+	random
+
+	0,23
+	0,23
+	0,22
+	0,20
+	0,24
+	0,21
+	0,29
+	0,21
+	0,23
+	0,22
+
+10000 valores
+
+	selection 
+
+	selection = crescente = 10000 valores = 0051 milisegundos para executar a operação
+	selection = crescente = 10000 valores = 0046 milisegundos para executar a operação
+	selection = crescente = 10000 valores = 0046 milisegundos para executar a operação
+	selection = crescente = 10000 valores = 0037 milisegundos para executar a operação
+	selection = crescente = 10000 valores = 0019 milisegundos para executar a operação
+	selection = crescente = 10000 valores = 0021 milisegundos para executar a operação
+	selection = crescente = 10000 valores = 0057 milisegundos para executar a operação
+	selection = crescente = 10000 valores = 0038 milisegundos para executar a operação
+	selection = crescente = 10000 valores = 0010 milisegundos para executar a operação
+	selection = crescente = 10000 valores = 0014 milisegundos para executar a operação
+
+	selection = decrecente = 10000 valores = 05 0004 milisegundos para executar a operação
+	selection = decrecente = 10000 valores = 08 0012 milisegundos para executar a operação
+	selection = decrecente = 10000 valores = 03 0024 milisegundos para executar a operação
+	selection = decrecente = 10000 valores = 02 0018 milisegundos para executar a operação
+	selection = decrecente = 10000 valores = 02 0034 milisegundos para executar a operação
+	selection = decrecente = 10000 valores = 02 0032 milisegundos para executar a operação
+	selection = decrecente = 10000 valores = 02 0016 milisegundos para executar a operação
+	selection = decrecente = 10000 valores = 03 0000 milisegundos para executar a operação
+	selection = decrecente = 10000 valores = 02 0041 milisegundos para executar a operação
+	selection = decrecente = 10000 valores = 02 0015 milisegundos para executar a operação
+
+	selection = random = 10000 valores = 03 0058 milisegundos para executar a operação
+	selection = random = 10000 valores = 03 0056 milisegundos para executar a operação
+	selection = random = 10000 valores = 04 0013 milisegundos para executar a operação
+	selection = random = 10000 valores = 04 0027 milisegundos para executar a operação
+	selection = random = 10000 valores = 04 0008 milisegundos para executar a operação
+	selection = random = 10000 valores = 04 0024 milisegundos para executar a operação
+	selection = random = 10000 valores = 04 0037 milisegundos para executar a operação
+	selection = random = 10000 valores = 04 0035 milisegundos para executar a operação
+	selection = random = 10000 valores = 03 0049 milisegundos para executar a operação
+	selection = random = 10000 valores = 04 0045 milisegundos para executar a operação
+
+	Insert
+
+	crescente
+
+	01 0019 milisegundos
+	01 0018 milisegundos
+	01 0016 milisegundos
+	01 0012 milisegundos
+	01 0014 milisegundos
+	01 0010 milisegundos
+	01 0051 milisegundos
+	01 0023 milisegundos
+	01 0013 milisegundos
+	01 0020 milisegundos
+	
+	Decrescente
+
+	06 0045 milisegundos
+	08 0010 milisegundos
+	06 0051 milisegundos
+	07 0015 milisegundos
+	06 0056 milisegundos
+	07 0016 milisegundos
+	05 0051 milisegundos
+	06 0047 milisegundos
+	07 0034 milisegundos
+	06 0047 milisegundos
+
+	random
+
+	09 0042 milisegundos
+	09 0046 milisegundos
+	10 0003 milisegundos
+	09 0043 milisegundos
+	09 0058 milisegundos
+	09 0058 milisegundos
+	10 0051 milisegundos
+	09 0044 milisegundos
+	10 0004 milisegundos
+	09 0030 milisegundos
+
+	bolha
+
+	random 
+
+	2,04
+	1,27
+	1,23
+	1,24
+	1,26
+	1,21
+	1,20
+	1,20
+	1,21
+	1,51
+
+	crescente
+
+	1,41
+	1,38
+	1,21
+	1,12
+	1,16
+	1,17
+	1,25
+	1,15
+	1,23
+	1,37
+
+	decrescente
+
+	2,44
+	1,48
+	2,15
+	1,31
+	1,17
+	1,20
+	1,44
+	1,19
+	1,26
+	1,28

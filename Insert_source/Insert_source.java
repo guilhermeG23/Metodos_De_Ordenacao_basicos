@@ -5,18 +5,22 @@ import java.util.Random;
 public class Insert_source {
 
     public static void main(String[] args) {
+
+        //Método simplista de Insertion sort
         
         long tempInicial = System.currentTimeMillis();
         
-        int[] valores = new int[10];
-        int[] antigos = new int[10];
+        int contador = 10;
+
+        int[] valores = new int[contador];
+        int[] antigos = new int[contador];
         
         Random rd = new Random();
         
-        for(int i = 0; i < 10; i++) {
-            valores[i] = rd.nextInt(100);
+        for(int i = 0; i < contador; i++) {
+            valores[i] = rd.nextInt(contador);
             //valores[i] = i;
-            //valores[i] = 9 - i;
+            //valores[i] = contador - i;
         }
         
         for(int x = 0; x < valores.length; x++) {
@@ -39,13 +43,15 @@ public class Insert_source {
                 int v = i - 1;
                
                 if(valores[i] < valores[v]) {
-                    int temp = valores[i];
-                    valores[i] = valores[v];
-                    valores[v] = temp;
+                    int temp = valores[v];
+                    valores[v] = valores[i];
+                    valores[i] = temp;
+                    /*
                     System.out.println("");
                     for(int x = 0; x < valores.length; x++) {
                         System.out.print(valores[x] + " ");
                     }
+                    */
                 }
                 
             }
@@ -60,6 +66,10 @@ public class Insert_source {
                 break;
             }
             
+        }
+
+        for(int x = 0; x < valores.length; x++) {
+            System.out.print(valores[x] + " ");
         }
         
         long tempFinal = System.currentTimeMillis();

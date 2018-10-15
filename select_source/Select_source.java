@@ -4,42 +4,54 @@ import java.util.Random;
 
 public class Select_source {
     public static void main(String[] args) {
-
+        
+        //Método simplista de select sort
+        
         long tempInicial = System.currentTimeMillis();
         
         Random rd = new Random();
 
         int[] valores = new int[10];
-        int menor ,a = 0, c = 0, i = 0;
+        int menor ,a = 0, c = 0, i = 0, contador = 10;
+        
          
-        for(i = 0; i < 10; i++) {
+        for(i = 0; i < contador; i++) {
             //Tres métodos que ela pediu
-            valores[i] = rd.nextInt(10000);
-            //valores[i] = i;
-            //valores[i] = 9 - i;
+            //valores[i] = rd.nextInt(contador);
+            valores[i] = i;
+            //valores[i] = contador - i;
         }
         
-        for(i = 0; i < 10; i++) {
+        for(i = 0; i < contador; i++) {
             System.out.print(valores[i] + " ");
         }
         
         System.out.println("");
-        while(a < 10) {
+
+        
+        System.out.println("");
+        while(a < valores.length) {
             menor = valores[a];
-            for(i = 0; i < 10; i++) {
+            i = a;
+            for(; i < valores.length; i++) {
                 if(menor >= valores[i]) {
                     menor = valores[i];
-                    c = i;
+                    valores[i] = valores[a];
+                     valores[a]= menor;
                 }
             }
-            valores[c] = 10000;
-            System.out.print(menor + " ");
             a++;
         }
+        
+        for(i = 0; i < contador; i++) {
+            System.out.print(valores[i] + " ");
+        }
+        System.out.println("");
 
         long tempFinal = System.currentTimeMillis();
         long dif = (tempFinal - tempInicial);
         System.out.println(String.format("\n%03d segundos  e %04d milisegundos", dif/60, dif%60));
-
+        
+        
     }
 }

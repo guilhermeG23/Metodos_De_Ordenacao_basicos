@@ -5,28 +5,30 @@ import java.util.Random;
 public class bubllesort {
     public static void main(String args[]) {
 
+        //Método simplista de bubble sort
+
         long tempInicial = System.currentTimeMillis();
 
         Random rd = new Random();
+    
+        int contador = 10;
 
-        int[] valores = new int[10];
-        int a = 0;
-        int b;
-        int i;
+        int[] valores = new int[contador];
+        int a = 0, b, i;
         
-        for(i = 0; i < 10; i++) {
+        for(i = 0; i < contador; i++) {
             //Tres métodos que ela pediu
-            valores[i] = rd.nextInt(10000);
+            valores[i] = rd.nextInt(contador);
             //valores[i] = i;
-            //valores[i] = 9 - i;
+            //valores[i] = contador - i;
         }
         
-        for(i = 0; i < 10; i++) {
+        for(i = 0; i < contador; i++) {
             System.out.print(valores[i] + " ");
         }
         
-        while(a < 10) {
-            for(i = 0; i < 10; i++) {
+        while(a < contador) {
+            for(i = 0; i < contador; i++) {
                 b = i + 1;
                 if(b == 10){
                     break;
@@ -42,7 +44,7 @@ public class bubllesort {
 
         System.out.println("");
         
-        for(i = 0; i < 10; i++) {
+        for(i = 0; i < contador; i++) {
             System.out.print(valores[i] + " ");
         }
         
